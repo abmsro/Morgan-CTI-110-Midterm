@@ -16,7 +16,6 @@ header, footer {
 }
 .container {
    padding: 15px;
-   overflow: auto;
 }
 main{
     box-sizing: border-box;
@@ -38,7 +37,8 @@ aside {
     float: left;
     margin: 0 0 10px 10px;
     max-width: 150px;
-    text-wrap: wrap;
+    padding: 10px;
+   
 }
 footer {
     margin-top: 10px
