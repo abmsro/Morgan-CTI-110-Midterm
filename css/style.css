@@ -3,25 +3,39 @@ body {
 }
 header, footer {
     text-align: center;
-    background-color: lightgray;
+    background-color: tan;
     padding: 10px;
 }
 .logo {
     height: 90px;
 }
-.container {
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-    gap: 10%;
-    margin:10px
-}
-nav, main, aside {
+.nav {
+    background-color: tan;
+    text-align: center;
     padding: 10px;
-    border: 1px solid black;
 }
-.floating-img {
+.container {
+   padding: 15px;
+   overflow: auto;
+}
+main{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid tan;
+}
+aside {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid tan;
+    background-color: rgb(222, 215, 206);
+.float {
     float: left;
     margin: 0 0 10px 10px;
     max-width: 150px;
-    text-wrap: around;
+    text-wrap: wrap;
+}
+footer {
+    margin-top: 10px
 }
