@@ -24,12 +24,16 @@ main{
     padding: 10px;
     border: 1px solid tan;
 }
+h1 {
+    text-align:center;
+}
 aside {
     box-sizing: border-box;
     margin: 0;
     padding: 10px;
     border: 1px solid tan;
     background-color: rgb(222, 215, 206);
+}
 .float {
     float: left;
     margin: 0 0 10px 10px;
