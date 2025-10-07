@@ -16,12 +16,15 @@ header, footer {
 }
 .container {
    padding: 15px;
+    overflow: auto;
+    background-color: rgb(240, 234, 224);
+
 }
 main{
+    float: left;
     box-sizing: border-box;
-    margin: 0;
-    padding: 10px;
     border: 1px solid tan;
+    background-color: rgb(240, 234, 224);
 }
 h1 {
     text-align:center;
@@ -29,15 +32,14 @@ h1 {
 aside {
     box-sizing: border-box;
     margin: 0;
-    padding: 10px;
     border: 1px solid tan;
     background-color: rgb(222, 215, 206);
 }
 .float {
     float: left;
     margin: 0 0 10px 10px;
-    max-width: 150px;
-    padding: 10px;
+    max-width: 150;
+    padding: 20px
    
 }
 footer {
