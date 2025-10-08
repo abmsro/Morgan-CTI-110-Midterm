@@ -35,8 +35,14 @@ header, footer {
     border: 4px solid tan;
     background-color: rgb(240, 234, 224);
 }
-h1 h2 {
-    text-align:center;
+.recipe {
+    margin: 15px;
+    padding: 15px;
+    border: 4px solid tan;
+    background-color: rgb(222, 215, 206);
+}
+h1, h2 {
+    text-align: center;
 }
 aside {
     box-sizing: border-box;
