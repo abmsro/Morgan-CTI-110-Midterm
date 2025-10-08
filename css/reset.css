@@ -44,4 +44,8 @@ em, i {
 a img {
   border: none;
 }
+.main {
+    margin: 0;
+    padding-left: 20px;
+}
 /* END RESET*/
